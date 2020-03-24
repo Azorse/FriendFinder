@@ -27,8 +27,13 @@ h4 {
 .questions {
   font-family: 'Bitter', serif;
   color: white;
-
   font-size: 14pt;
+}
+
+.links {
+  display: flex;
+  justify-content: end;
+  margin-right:60px;
 }
 
 .options{
