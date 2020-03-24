@@ -7,6 +7,7 @@ var app = express();
 var PORT = process.env.PORT;
 
 app.use(express.static(path.join(__dirname, './app/public')));
+app.use(express.static(path.join(__dirname, './app/public/assets')));
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
